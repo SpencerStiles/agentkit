@@ -1,0 +1,36 @@
+{
+  "name": "@agentkit/core",
+  "version": "0.1.0",
+  "description": "TypeScript AI agent runtime — task graphs, tool orchestration, memory, and structured output",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "openai": "^4.73.0",
+    "zod": "^3.23.0",
+    "eventemitter3": "^5.0.1",
+    "p-queue": "^8.0.1",
+    "p-retry": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "files": ["dist"],
+  "license": "MIT"
+}

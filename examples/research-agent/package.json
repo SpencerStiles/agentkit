@@ -1,0 +1,21 @@
+{
+  "name": "@agentkit/example-research",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "echo 'skip'"
+  },
+  "dependencies": {
+    "@agentkit/core": "workspace:*",
+    "@agentkit/tools": "workspace:*",
+    "zod": "^3.23.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
