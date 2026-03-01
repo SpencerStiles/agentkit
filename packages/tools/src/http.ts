@@ -3,7 +3,7 @@
  */
 
 import { z } from 'zod';
-import { defineTool } from '@agentkit/core';
+import { defineTool } from '@spencerstiles/conductor';
 
 /**
  * Validates that a URL does not point to private/internal network addresses.

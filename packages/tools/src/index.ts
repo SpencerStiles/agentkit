@@ -1,5 +1,5 @@
 /**
- * @agentkit/tools — Built-in tools for AgentKit agents.
+ * @spencerstiles/conductor-tools — Built-in tools for AgentKit agents.
  */
 
 export { httpRequest } from './http.js';

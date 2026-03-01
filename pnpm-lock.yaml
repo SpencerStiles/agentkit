@@ -17,10 +17,10 @@ importers:
 
   examples/research-agent:
     dependencies:
-      '@agentkit/core':
+      '@spencerstiles/conductor':
         specifier: workspace:*
         version: link:../../packages/core
-      '@agentkit/tools':
+      '@spencerstiles/conductor-tools':
         specifier: workspace:*
         version: link:../../packages/tools
       dotenv:
@@ -70,7 +70,7 @@ importers:
 
   packages/tools:
     dependencies:
-      '@agentkit/core':
+      '@spencerstiles/conductor':
         specifier: workspace:*
         version: link:../core
       zod:

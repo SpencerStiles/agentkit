@@ -3,7 +3,7 @@
  */
 
 import { z } from 'zod';
-import { defineTool } from '@agentkit/core';
+import { defineTool } from '@spencerstiles/conductor';
 
 export const currentTime = defineTool({
   name: 'current_time',

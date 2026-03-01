@@ -16,8 +16,8 @@ import {
   createTaskGraph,
   defineTool,
   type TaskIO,
-} from '@agentkit/core';
-import { httpRequest, calculator, currentTime } from '@agentkit/tools';
+} from '@spencerstiles/conductor';
+import { httpRequest, calculator, currentTime } from '@spencerstiles/conductor-tools';
 
 // ---------------------------------------------------------------------------
 // Custom tool: extract key facts from text

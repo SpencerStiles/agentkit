@@ -6,7 +6,7 @@
  */
 
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import type { ToolDefinition, ToolContext } from '@agentkit/core';
+import type { ToolDefinition, ToolContext } from '@spencerstiles/conductor';
 import { httpRequest } from '../http.js';
 import { calculator } from '../calculator.js';
 

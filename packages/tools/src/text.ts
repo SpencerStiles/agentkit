@@ -3,7 +3,7 @@
  */
 
 import { z } from 'zod';
-import { defineTool } from '@agentkit/core';
+import { defineTool } from '@spencerstiles/conductor';
 
 export const textStats = defineTool({
   name: 'text_stats',

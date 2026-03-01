@@ -1,5 +1,5 @@
 {
-  "name": "@agentkit/example-research",
+  "name": "@spencerstiles/conductor-example-research",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -8,8 +8,8 @@
     "build": "echo 'skip'"
   },
   "dependencies": {
-    "@agentkit/core": "workspace:*",
-    "@agentkit/tools": "workspace:*",
+    "@spencerstiles/conductor": "workspace:*",
+    "@spencerstiles/conductor-tools": "workspace:*",
     "zod": "^3.23.0",
     "dotenv": "^16.4.0"
   },

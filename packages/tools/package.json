@@ -1,7 +1,7 @@
 {
-  "name": "@agentkit/tools",
+  "name": "@spencerstiles/conductor-tools",
   "version": "0.1.0",
-  "description": "Built-in tools for AgentKit agents — web search, file operations, code execution, HTTP requests",
+  "description": "Built-in tools for Conductor agents — HTTP requests, web search, file operations, datetime, and more",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,7 +20,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@agentkit/core": "workspace:*",
+    "@spencerstiles/conductor": "workspace:*",
     "zod": "^3.23.0"
   },
   "devDependencies": {

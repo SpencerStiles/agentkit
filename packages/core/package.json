@@ -1,5 +1,5 @@
 {
-  "name": "@agentkit/core",
+  "name": "@spencerstiles/conductor",
   "version": "0.1.0",
   "description": "TypeScript AI agent runtime — task graphs, tool orchestration, memory, and structured output",
   "type": "module",

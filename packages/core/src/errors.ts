@@ -6,7 +6,7 @@
  *
  * @example
  * ```typescript
- * import { AgentKitError, ProviderError, ToolExecutionError } from '@agentkit/core'
+ * import { AgentKitError, ProviderError, ToolExecutionError } from '@spencerstiles/conductor'
  *
  * try {
  *   await agent.run('hello')

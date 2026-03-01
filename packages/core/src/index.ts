@@ -1,5 +1,5 @@
 /**
- * @agentkit/core — TypeScript AI agent runtime
+ * @spencerstiles/conductor — TypeScript AI agent runtime
  *
  * Task graphs, tool orchestration, memory, and structured output.
  */
